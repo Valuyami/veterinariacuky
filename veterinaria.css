@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap'); 
+@import url(https://fonts.google.com/specimen/Belgrano);
+
+body{
+    background-color:lightblue;
+}
+h1{
+    font-size: 150px;
+    text-shadow: rgb(192, 240, 255) 2px 3px;
+    font-family:'Dancing Script';
+    src: url(DancingScript-VariableFont_wght.ttf);
+    font-weight: 800;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    display: block;
+    padding-top: 20px;
+}
+li{
+    display: inline;
+    margin-left: 500px;
+    font-family:'Dancing Script';
+    src: url(DancingScript-VariableFont_wght.ttf);
+    font-style:italic;
+    font-weight: 300;
+
+}
+a{
+    text-decoration: none;
+    color:rgb(53, 248, 167)
+    
+    
+}
+.opciones1{
+    background-color:rgb(113, 179, 240);
+    height: 60px;
+}
+.imgen2{
+    height:100%;
+    width:100%;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+}
+
+.texta1 {
+    background-image:URL("vete1.jpeg");
+    font-family: "Lucida Bright", Georgia, serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    font-size: x-large; font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(155, 94, 184);
+    text-align: center;
+    position: relative;
+    top: 50%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20px;
+
+}
+.textos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.texta2 {
+    background-image:url(VETEFAM.jpg); 
+    font-family: "Lucida Bright", Georgia, serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    font-size: x-large; font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 20px;
+    color: rgb(246, 250, 250);
+    height: 400px;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texta3 {
+    background-image: url(vete.jpg);
+    font-family: "Lucida Bright", Georgia, serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px;
+    font-size: x-large; font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+    line-height: 20px;
+    display: inline-block;
+    color: rgb(10, 1, 10);
+    height: 400px;
+    width: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:left;
+}
+
+.texta2 p, .texta3  p {
+    position: relative;
+    top: 60%;
+    text-align: center;
+}
+footer{
+    background-color: pink;
+    height:150px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+   
+    
+}
+.serviciosymas {
+    background-color: rgb(204, 243, 227);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(187, 103, 247);
+    padding: 20px;
+    font-size: large;
+    
+}
+.serviciosymas2, .serviciosymas3, .serviciosymas4 {
+    margin: 30px;
+    padding: 30px;
+
+}
+.piedeweb {
+    font-size: large;
+    text-align: left;
+    
+}
